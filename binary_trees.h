@@ -50,4 +50,7 @@ int binary_tree_is_leaf(const binary_tree_t *node);
 /* Is root -- 5-binary_tree_is_root.c */
 int binary_tree_is_root(const binary_tree_t *node);
 
+/* Pre-order traversal -- 6-binary_tree_preorder.c */
+void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
+
 #endif /* _BINARY_TREES_H_ */
