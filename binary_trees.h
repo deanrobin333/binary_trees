@@ -32,11 +32,13 @@ typedef struct binary_tree_s heap_t;
 /* Stores recursively each level in an array of strings */
 void binary_tree_print(const binary_tree_t *);
 
-/* 0-binary_tree_node.c -- New node */
+/* New node -- 0-binary_tree_node.c */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 
-/* 1-binary_tree_insert_left.c -- Insert left */
+/* Insert left -- 1-binary_tree_insert_left.c */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 
+/* Insert right -- 2-binary_tree_insert_right.c */
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
 
 #endif /* _BINARY_TREES_H_ */
