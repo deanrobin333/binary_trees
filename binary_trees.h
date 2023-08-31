@@ -83,8 +83,12 @@ int binary_tree_is_full(const binary_tree_t *tree);
 /* Is perfect -- 16-binary_tree_is_perfect.c */
 int binary_tree_is_perfect(const binary_tree_t *tree);
 
+/* Sibling -- 17-binary_tree_sibling.c */
+binary_tree_t *binary_tree_sibling(binary_tree_t *node);
 
-/** Helper functions **/
+
+
+/** HELPER FUNCTIONS **/
 
 /* Height -- 9-binary_tree_height.c */
 /* Balance factor -- 14-binary_tree_balance.c */
@@ -92,5 +96,9 @@ void calc_height(const binary_tree_t *tree, size_t n, size_t *height);
 
 /* Nodes -- 13-binary_tree_nodes.c */
 int is_leaf(const binary_tree_t *node);
+
+/* Is perfect -- 16-binary_tree_is_perfect.c */
+void tree_stats(const binary_tree_t *tree, size_t n,
+		size_t *leaves, size_t *height);
 
 #endif /* _BINARY_TREES_H_ */
