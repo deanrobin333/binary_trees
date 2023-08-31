@@ -65,8 +65,11 @@ size_t binary_tree_height(const binary_tree_t *tree);
 /* Depth -- 10-binary_tree_depth.c */
 size_t binary_tree_depth(const binary_tree_t *tree);
 
-/* Size -- 11-binary_tree_size.c*/
+/* Size -- 11-binary_tree_size.c */
 size_t binary_tree_size(const binary_tree_t *tree);
+
+/* Leaves -- 12-binary_tree_leaves.c */
+size_t binary_tree_leaves(const binary_tree_t *tree);
 
 
 
