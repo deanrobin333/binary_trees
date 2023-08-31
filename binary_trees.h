@@ -71,6 +71,9 @@ size_t binary_tree_size(const binary_tree_t *tree);
 /* Leaves -- 12-binary_tree_leaves.c */
 size_t binary_tree_leaves(const binary_tree_t *tree);
 
+/* Nodes -- 13-binary_tree_nodes.c */
+size_t binary_tree_nodes(const binary_tree_t *tree);
+
 
 
 
@@ -79,5 +82,8 @@ size_t binary_tree_leaves(const binary_tree_t *tree);
 
 /* Height -- 9-binary_tree_height.c */
 void calc_height(const binary_tree_t *tree, size_t n, size_t *height);
+
+/* Nodes -- 13-binary_tree_nodes.c */
+int is_leaf(const binary_tree_t *node);
 
 #endif /* _BINARY_TREES_H_ */
